@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styless/styless.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <title>ENCRIPTADOR</title>
+</head>
+
+<body>
+    <header>
+        <div>
+            <img class="Logo" src="/assets/Group 3.png" alt="logo Alura">
+            <!--<h1>ENCRIPTADOR</h1>-->
+        </div>
+    </header>
+    <main>
+        <div>
+            <textarea class="text-area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div>
+                <h6 class="informacion">Solo letras minúsculas y sin acentos</h6>
+            </div>
+            <div class="botones"></div>
+            <button class="btn-encriptar" onclick="btnEncriptar()">Encriptar</button>
+            <button class="btn-desencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+        </div>
+        <div>
+            <textarea class="mensaje" cols="20" rows="10"></textarea>
+            <div>
+                <button class="copiar" onclick="copiar()">copiar</button>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        DESARROLLADO POR RUBEN GUERRERO RAMIREZ PARA ALURA LATAM
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
